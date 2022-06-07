@@ -1,0 +1,15 @@
+<div>
+    
+    <form method='POST'>
+        
+        <?=$myRegister->input('name')?>
+        <?=$myRegister->input('first_name')?>
+        <?=$myRegister->input('email','email')?>
+        <?=$myRegister->input('phone','tel')?>
+        <?=$myRegister->input('password','password')?>
+        
+        <?=$myRegister->submit()?>
+
+    </form>
+    
+</div>
